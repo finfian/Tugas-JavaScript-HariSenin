@@ -1,0 +1,113 @@
+* {
+  font-family: 'Comic Neue', cursive;
+  padding: 0;
+  margin: 0;
+  background-color: #39e7ea;
+}
+
+
+.container {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.font-container {
+  font-size: 12px;
+}
+
+.game-bg {
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+.container h1 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  margin: 12px 8px;
+  
+}
+
+.batu-click {
+  margin: 8px;
+  background-color: orange;
+  width: 5rem;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+  transition: opacity border-color 1s;
+}
+.batu-click:hover {
+  opacity: 0.8;
+  border-color: rgb(81, 0, 255);
+}
+.batu-click:active {
+  opacity: 0.7;
+  width: 4.8rem;
+  transform: rotate(20deg);
+}
+
+.kertas-click {
+  width: 5rem;
+  margin: 8px;
+  background-color: #70ca6a;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+  transition: opacity border-color 1s;
+}
+.kertas-click:hover {
+  opacity: 0.8;
+  border-color: #f74e1b;
+}
+.kertas-click:active {
+  opacity: 0.7;
+  width: 4.8rem;
+  margin-top: -1rem;
+}
+
+.gunting-click {
+  width: 5rem;
+  margin: 8px;
+  background-color: #5428f5;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+  transition: opacity border-color 0.15s;
+}
+.gunting-click:hover {
+  opacity: 0.8;
+  border-color: #b1f71b;
+}
+.gunting-click:active {
+  opacity: 0.7;
+  width: 4.8rem;
+  transform: rotate(-20deg);
+}
+
+.remove-click {
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  margin: 4px;
+  font-size: 12px;
+  border-style: solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity border-color 1s;
+}
+.remove-click:hover {
+  opacity: 0.8;
+  border-color: #b1f71b;
+}
+.remove-click:active {
+  opacity: 0.7;
+  background-color: #2a1bf7;
+}
